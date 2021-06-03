@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-const API_KEY = "0a9936f40ff53d039d2bf5a4c916c04a";
+const API_KEY = "";
 
 async function getCityTemperature(cityName) {
   const response = await fetch(
